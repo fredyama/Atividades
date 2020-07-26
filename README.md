@@ -1,2 +1,2 @@
-# coursera-test
-Repository coursera test
+# atividades
+envio de atividades do coursera
