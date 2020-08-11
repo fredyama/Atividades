@@ -1,35 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  height: 100%;
+  box-sizing: border-box;
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: #aff;
+  background-color: #ed683c;
   font-family: 'Oxygen', sans-serif;
+}
+
+
+.text-center {
+  font-family: Helvetica;
+  margin-bottom: 15px;
+  color: #111111;
+  text-align: center;
+}
+
+.main-title {
+font-size: 200%;
+color: #001122;
+}
+
+.menu-title {
+font-size: 125%;
+color: #03bb85;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #ccbbaa;
   border-radius: 0;
   border: 0;
-}
-
-#logo-img {
-  background: url('../images/itfood.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
+  color: #abc;
 }
 
 .navbar-brand {
-  padding-top: 25px;
+
 }
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #334455;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -38,7 +55,7 @@ body {
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: #000;
+  color: #040;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
@@ -46,3 +63,55 @@ body {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
+
+.section {
+  border: 1px solid black;
+  background-color: #00FF99;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+
+#chicken {
+  text-align: center;
+  width: 100%;
+  float: right;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin: 5px;
+  background-color: #eab595;
+  color: #708090;
+  padding: 20px;
+}
+
+#beef {
+  text-align: center;
+  width: 100%;
+  float: right;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin: 5px;
+  background-color: #71220f;
+  color: #b0c0d0;
+   padding: 20px;
+}
+
+#sushi {
+
+  text-align: center;
+  width: 100%;
+  float: right;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin: 5px;
+  background-color: #fa8072;
+  color: #405060;
+  padding: 20px;
+}
+
